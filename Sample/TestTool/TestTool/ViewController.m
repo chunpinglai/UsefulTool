@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
 #import "DeviceIDTool.h"
+#import "UIImage+animatedGIF.h"
 
 @interface ViewController ()
 
@@ -20,6 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self getDeviceID];
+    [self addGifImage];
 }
 
 
@@ -31,6 +32,15 @@
 - (void)getDeviceID {
     NSString *deviceID = [DeviceIDTool getDeviceID];
     NSLog(@"deviceID:%@", deviceID);
+}
+
+- (void)addGifImage {
+    UIImageView *loadingImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 20, 20)];
+    NSString *path=[[NSBundle mainBundle]pathForResource:@"face2" ofType:@"gif"];
+    NSURL *url= [[NSURL alloc] initFileURLWithPath:path];
+    loadingImageView.image= [UIImage animatedImageWithAnimatedGIFURL:url];
+    loadingImageView.center = self.view.center;
+    [self.view addSubview:loadingImageView];
 }
 
 @end

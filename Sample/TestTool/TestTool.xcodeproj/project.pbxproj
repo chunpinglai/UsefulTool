@@ -15,6 +15,8 @@
 		9ADFDF801DFF9A3700685475 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFDF7E1DFF9A3700685475 /* LaunchScreen.storyboard */; };
 		9ADFDF8B1DFF9B7500685475 /* DeviceIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDF891DFF9B7500685475 /* DeviceIDTool.m */; };
 		9ADFDF8C1DFF9B7500685475 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDF8A1DFF9B7500685475 /* README.md */; };
+		9ADFDFB21DFFE91800685475 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDFB11DFFE91800685475 /* UIImage+animatedGIF.m */; };
+		9ADFDFB51DFFEA0B00685475 /* face2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9ADFDFB41DFFEA0B00685475 /* face2.gif */; };
 		A260BE7A66A50B1CE2EE1E18 /* libPods-TestTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7D2A7DA0E151CA874148DB /* libPods-TestTool.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,9 @@
 		9ADFDF881DFF9B7500685475 /* DeviceIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceIDTool.h; sourceTree = "<group>"; };
 		9ADFDF891DFF9B7500685475 /* DeviceIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceIDTool.m; sourceTree = "<group>"; };
 		9ADFDF8A1DFF9B7500685475 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9ADFDFB01DFFE91800685475 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		9ADFDFB11DFFE91800685475 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		9ADFDFB41DFFEA0B00685475 /* face2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = face2.gif; sourceTree = "<group>"; };
 		E32664961EE722189D4AED6C /* Pods-TestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTool/Pods-TestTool.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7D2A7DA0E151CA874148DB /* libPods-TestTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -91,6 +96,8 @@
 				9ADFDF741DFF9A3700685475 /* AppDelegate.m */,
 				9ADFDF761DFF9A3700685475 /* ViewController.h */,
 				9ADFDF771DFF9A3700685475 /* ViewController.m */,
+				9ADFDFB31DFFEA0B00685475 /* Resource */,
+				9ADFDFAF1DFFE91800685475 /* AnimatedGIF */,
 				9ADFDF871DFF9B7500685475 /* DeviceIDTool+Keychain */,
 				9ADFDF791DFF9A3700685475 /* Main.storyboard */,
 				9ADFDF7C1DFF9A3700685475 /* Assets.xcassets */,
@@ -118,6 +125,24 @@
 			);
 			name = "DeviceIDTool+Keychain";
 			path = "UsefulTool/DeviceIDTool+Keychain";
+			sourceTree = "<group>";
+		};
+		9ADFDFAF1DFFE91800685475 /* AnimatedGIF */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFDFB01DFFE91800685475 /* UIImage+animatedGIF.h */,
+				9ADFDFB11DFFE91800685475 /* UIImage+animatedGIF.m */,
+			);
+			name = AnimatedGIF;
+			path = UsefulTool/AnimatedGIF;
+			sourceTree = "<group>";
+		};
+		9ADFDFB31DFFEA0B00685475 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFDFB41DFFEA0B00685475 /* face2.gif */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +209,7 @@
 			files = (
 				9ADFDF801DFF9A3700685475 /* LaunchScreen.storyboard in Resources */,
 				9ADFDF7D1DFF9A3700685475 /* Assets.xcassets in Resources */,
+				9ADFDFB51DFFEA0B00685475 /* face2.gif in Resources */,
 				9ADFDF7B1DFF9A3700685475 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ADFDF8B1DFF9B7500685475 /* DeviceIDTool.m in Sources */,
+				9ADFDFB21DFFE91800685475 /* UIImage+animatedGIF.m in Sources */,
 				9ADFDF781DFF9A3700685475 /* ViewController.m in Sources */,
 				9ADFDF8C1DFF9B7500685475 /* README.md in Sources */,
 				9ADFDF751DFF9A3700685475 /* AppDelegate.m in Sources */,
@@ -408,6 +435,7 @@
 				9ADFDF861DFF9A3700685475 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
