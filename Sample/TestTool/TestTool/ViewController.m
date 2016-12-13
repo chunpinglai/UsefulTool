@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DeviceIDTool.h"
 #import "UIImage+animatedGIF.h"
+#import "FileWrapper.h"
 
 @interface ViewController ()
 
@@ -21,6 +22,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self getDeviceID];
     [self addGifImage];
+    [self getImageDataWithAsset:nil];//asset:the media you selected.
 }
 
 
@@ -41,6 +43,11 @@
     loadingImageView.image= [UIImage animatedImageWithAnimatedGIFURL:url];
     loadingImageView.center = self.view.center;
     [self.view addSubview:loadingImageView];
+}
+
+- (void)getImageDataWithAsset:(PHAsset *)asset {
+    NSDictionary *result = [FileWrapper getImageDataWithUploadFormat:asset];
+    NSLog(@"getImageDataWithAsset,result:%@", result);
 }
 
 @end
