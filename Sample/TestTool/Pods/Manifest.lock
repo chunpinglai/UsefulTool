@@ -1,0 +1,15 @@
+PODS:
+  - TWMessageBarManager (1.8.1)
+  - UICKeyChainStore (2.1.0)
+
+DEPENDENCIES:
+  - TWMessageBarManager
+  - UICKeyChainStore
+
+SPEC CHECKSUMS:
+  TWMessageBarManager: fd84e7948ba7968a2b5d9454859135761214ec56
+  UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+
+PODFILE CHECKSUM: 9056f8f1e0f5cd0882cc8597860cf5f5574a9ae4
+
+COCOAPODS: 1.1.1

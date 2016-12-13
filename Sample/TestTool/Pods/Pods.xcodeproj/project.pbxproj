@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C16DB2AA5BBC4C82AC28C30BD98C544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		0E3A518EC30E2271D26DE823D4D0BE70 /* Pods-TestTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A53A959D8B50112853506054B2CC156 /* Pods-TestTool-dummy.m */; };
+		1B33F9C83CD0C52D365119AAB1372BC0 /* TWMessageBarManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80FE01E95887ECF6C3A00D973C42771F /* TWMessageBarManager-dummy.m */; };
+		2D45A6BDFA51233C31CAAB5C89A45851 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */; };
+		78B3A4D3EF6455DCFB1C48F7FED97613 /* UICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B8FE77C35DF7DFE43D9F7486BFA2C7 /* UICKeyChainStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		930B7F1DE61613480D4AB7A25A0B0CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		93B15500AAA35F03C3270E08AFD0F625 /* TWMessageBarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7DB348249C477077672B8E521FB1D86 /* TWMessageBarManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B49806508A16AA3A7348D839843EC976 /* UICKeyChainStore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82784C05A73E615E0A6271D5E9AA8AF2 /* UICKeyChainStore-dummy.m */; };
+		C40AC2D6012B6C66339B3F39E0635881 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */; };
+		C5B97D5259EAC49F14FCEA7E4F5F36D3 /* UICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A33826783B41EBAF3E546C4E6D4DD7 /* UICKeyChainStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4817402015B0919313EF27A7F7D8485 /* TWMessageBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AA46E43369E783F5D0C142F4B462B /* TWMessageBarManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B1F0DFA1A7E4A96F5DB7C6DA13F0FD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A7A9D069D59F2F5C6173F7772D71569;
+			remoteInfo = TWMessageBarManager;
+		};
+		DFB27006D82FB0728A34F14B6E494B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B9DA268B4AE99DA5F9BA740D36EA02;
+			remoteInfo = UICKeyChainStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2233386FB3F0BC76FD762A4B6DA20BC0 /* icon-info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-info@2x.png"; path = "Classes/Icons/icon-info@2x.png"; sourceTree = "<group>"; };
+		254938EAF134242138DA284455A50DCF /* icon-success.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-success.png"; path = "Classes/Icons/icon-success.png"; sourceTree = "<group>"; };
+		3A6AE22BF520A5D8F2AE320B840043BE /* Pods-TestTool-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestTool-acknowledgements.plist"; sourceTree = "<group>"; };
+		42A33826783B41EBAF3E546C4E6D4DD7 /* UICKeyChainStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICKeyChainStore.h; path = Lib/UICKeyChainStore/UICKeyChainStore.h; sourceTree = "<group>"; };
+		4D5AA46E43369E783F5D0C142F4B462B /* TWMessageBarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWMessageBarManager.m; path = Classes/TWMessageBarManager.m; sourceTree = "<group>"; };
+		6110205A702B6EF38130CB3DA312ACC4 /* Pods-TestTool-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestTool-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AF370D68DCFFFF4DB1049C2934F298E /* icon-info.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-info.png"; path = "Classes/Icons/icon-info.png"; sourceTree = "<group>"; };
+		7A53A959D8B50112853506054B2CC156 /* Pods-TestTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestTool-dummy.m"; sourceTree = "<group>"; };
+		7A77ABBFABDBE813F6B0DFFF625BBDF4 /* icon-error.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-error.png"; path = "Classes/Icons/icon-error.png"; sourceTree = "<group>"; };
+		7DC5AFB987D440AEA33B70C20C72CE5C /* libPods-TestTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TestTool.a"; path = "libPods-TestTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE01E95887ECF6C3A00D973C42771F /* TWMessageBarManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWMessageBarManager-dummy.m"; sourceTree = "<group>"; };
+		82784C05A73E615E0A6271D5E9AA8AF2 /* UICKeyChainStore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICKeyChainStore-dummy.m"; sourceTree = "<group>"; };
+		89460ABE9345BF6C76F3A278E8547ACA /* UICKeyChainStore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICKeyChainStore-prefix.pch"; sourceTree = "<group>"; };
+		8BE1A9875D756C9EE981CA87E814A087 /* TWMessageBarManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWMessageBarManager-prefix.pch"; sourceTree = "<group>"; };
+		912D521406409ECF41676F19E3E37EB1 /* libUICKeyChainStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libUICKeyChainStore.a; path = libUICKeyChainStore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A66B7F845165F696477332F0FE3E49FC /* Pods-TestTool-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTool-resources.sh"; sourceTree = "<group>"; };
+		B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B7DB348249C477077672B8E521FB1D86 /* TWMessageBarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWMessageBarManager.h; path = Classes/TWMessageBarManager.h; sourceTree = "<group>"; };
+		BA49BC8FDAABEB4F566098639935BB10 /* Pods-TestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTool.debug.xcconfig"; sourceTree = "<group>"; };
+		C004B7E33B702C82805E7D6891C04592 /* icon-success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-success@2x.png"; path = "Classes/Icons/icon-success@2x.png"; sourceTree = "<group>"; };
+		CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CE58506D809080DBAF93E10A7E8ED38C /* icon-error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "icon-error@2x.png"; path = "Classes/Icons/icon-error@2x.png"; sourceTree = "<group>"; };
+		D790A9E5E72289336780C1B2CE28927A /* Pods-TestTool-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestTool-frameworks.sh"; sourceTree = "<group>"; };
+		E2496DE07855C7B210D29192E94D2679 /* Pods-TestTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestTool.release.xcconfig"; sourceTree = "<group>"; };
+		F15385641BA37B80DA4CF1658DE459CC /* libTWMessageBarManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTWMessageBarManager.a; path = libTWMessageBarManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B8FE77C35DF7DFE43D9F7486BFA2C7 /* UICKeyChainStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICKeyChainStore.m; path = Lib/UICKeyChainStore/UICKeyChainStore.m; sourceTree = "<group>"; };
+		F8D848BEF6AA91EFCA72282BEE89AC07 /* TWMessageBarManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWMessageBarManager.xcconfig; sourceTree = "<group>"; };
+		FC1687CBC1F780A152142F7D5B6CCC20 /* UICKeyChainStore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICKeyChainStore.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C425D03030E5A9FA05F26B51D7C7233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40AC2D6012B6C66339B3F39E0635881 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60D30C406C8509C90C21251F5741264E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C16DB2AA5BBC4C82AC28C30BD98C544 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A9140CCE36031EEC7EC53111BA30B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				930B7F1DE61613480D4AB7A25A0B0CB6 /* Foundation.framework in Frameworks */,
+				2D45A6BDFA51233C31CAAB5C89A45851 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11BCCFE5543D4E60462811260F5A8386 /* TWMessageBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				B7DB348249C477077672B8E521FB1D86 /* TWMessageBarManager.h */,
+				4D5AA46E43369E783F5D0C142F4B462B /* TWMessageBarManager.m */,
+				3037147A8D720C5FD6858D8C547DDAA1 /* Resources */,
+				FE272DE75AF92E3DD896489CAABB4F49 /* Support Files */,
+			);
+			name = TWMessageBarManager;
+			path = TWMessageBarManager;
+			sourceTree = "<group>";
+		};
+		228E29943E30CEEBF5EA73952F11A7BC /* Pods-TestTool */ = {
+			isa = PBXGroup;
+			children = (
+				6110205A702B6EF38130CB3DA312ACC4 /* Pods-TestTool-acknowledgements.markdown */,
+				3A6AE22BF520A5D8F2AE320B840043BE /* Pods-TestTool-acknowledgements.plist */,
+				7A53A959D8B50112853506054B2CC156 /* Pods-TestTool-dummy.m */,
+				D790A9E5E72289336780C1B2CE28927A /* Pods-TestTool-frameworks.sh */,
+				A66B7F845165F696477332F0FE3E49FC /* Pods-TestTool-resources.sh */,
+				BA49BC8FDAABEB4F566098639935BB10 /* Pods-TestTool.debug.xcconfig */,
+				E2496DE07855C7B210D29192E94D2679 /* Pods-TestTool.release.xcconfig */,
+			);
+			name = "Pods-TestTool";
+			path = "Target Support Files/Pods-TestTool";
+			sourceTree = "<group>";
+		};
+		2E339049816F198EB76DEA4264EF8374 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4690263E3C2DD3C24DEAC554FFBD486 /* Foundation.framework */,
+				CAFD15069DBFFAF7E7CD48183E2D230C /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2E6F83485C37FA13948120AE6FBE87D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DC5AFB987D440AEA33B70C20C72CE5C /* libPods-TestTool.a */,
+				F15385641BA37B80DA4CF1658DE459CC /* libTWMessageBarManager.a */,
+				912D521406409ECF41676F19E3E37EB1 /* libUICKeyChainStore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3037147A8D720C5FD6858D8C547DDAA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A77ABBFABDBE813F6B0DFFF625BBDF4 /* icon-error.png */,
+				CE58506D809080DBAF93E10A7E8ED38C /* icon-error@2x.png */,
+				6AF370D68DCFFFF4DB1049C2934F298E /* icon-info.png */,
+				2233386FB3F0BC76FD762A4B6DA20BC0 /* icon-info@2x.png */,
+				254938EAF134242138DA284455A50DCF /* icon-success.png */,
+				C004B7E33B702C82805E7D6891C04592 /* icon-success@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E339049816F198EB76DEA4264EF8374 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AEA7560EDFED4022D1D189BB1E2CB38 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				228E29943E30CEEBF5EA73952F11A7BC /* Pods-TestTool */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BEFAC641F3F8B862BA2CCD8922EED728 /* Pods */,
+				2E6F83485C37FA13948120AE6FBE87D3 /* Products */,
+				5AEA7560EDFED4022D1D189BB1E2CB38 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A471EB3C835FB8AEAB45E4FDD89F8AD6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1687CBC1F780A152142F7D5B6CCC20 /* UICKeyChainStore.xcconfig */,
+				82784C05A73E615E0A6271D5E9AA8AF2 /* UICKeyChainStore-dummy.m */,
+				89460ABE9345BF6C76F3A278E8547ACA /* UICKeyChainStore-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICKeyChainStore";
+			sourceTree = "<group>";
+		};
+		BEFAC641F3F8B862BA2CCD8922EED728 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11BCCFE5543D4E60462811260F5A8386 /* TWMessageBarManager */,
+				E70D67B51107C416AD87D3E553EEAAAF /* UICKeyChainStore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E70D67B51107C416AD87D3E553EEAAAF /* UICKeyChainStore */ = {
+			isa = PBXGroup;
+			children = (
+				42A33826783B41EBAF3E546C4E6D4DD7 /* UICKeyChainStore.h */,
+				F6B8FE77C35DF7DFE43D9F7486BFA2C7 /* UICKeyChainStore.m */,
+				A471EB3C835FB8AEAB45E4FDD89F8AD6 /* Support Files */,
+			);
+			name = UICKeyChainStore;
+			path = UICKeyChainStore;
+			sourceTree = "<group>";
+		};
+		FE272DE75AF92E3DD896489CAABB4F49 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D848BEF6AA91EFCA72282BEE89AC07 /* TWMessageBarManager.xcconfig */,
+				80FE01E95887ECF6C3A00D973C42771F /* TWMessageBarManager-dummy.m */,
+				8BE1A9875D756C9EE981CA87E814A087 /* TWMessageBarManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TWMessageBarManager";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73DD0E9AF8C3798228A62CBFF9CFA60C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B97D5259EAC49F14FCEA7E4F5F36D3 /* UICKeyChainStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E08A0C030EAC50B1D34C14423968533 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B15500AAA35F03C3270E08AFD0F625 /* TWMessageBarManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A7A9D069D59F2F5C6173F7772D71569 /* TWMessageBarManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5EFA8D82FAEC11378F2AF78D613224 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */;
+			buildPhases = (
+				29325D8C728FDA4A5900D84AD797A696 /* Sources */,
+				3C425D03030E5A9FA05F26B51D7C7233 /* Frameworks */,
+				7E08A0C030EAC50B1D34C14423968533 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWMessageBarManager;
+			productName = TWMessageBarManager;
+			productReference = F15385641BA37B80DA4CF1658DE459CC /* libTWMessageBarManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		934DB4B14F5CD156CE434B8C19984C93 /* Pods-TestTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5FDEA939065EDDCCD4A749EEA2371F /* Build configuration list for PBXNativeTarget "Pods-TestTool" */;
+			buildPhases = (
+				B227339A318F1CE2449BE09B4690A34E /* Sources */,
+				60D30C406C8509C90C21251F5741264E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F89198E84BEBD855BB1CF23BD9372B89 /* PBXTargetDependency */,
+				B310071E5BE0689667F2C07495849F06 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestTool";
+			productName = "Pods-TestTool";
+			productReference = 7DC5AFB987D440AEA33B70C20C72CE5C /* libPods-TestTool.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E5B9DA268B4AE99DA5F9BA740D36EA02 /* UICKeyChainStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B704EEEAA3270C0556B88FD29E7B8904 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */;
+			buildPhases = (
+				F38E567AB201267A88930DED97F26E3C /* Sources */,
+				E4A9140CCE36031EEC7EC53111BA30B7 /* Frameworks */,
+				73DD0E9AF8C3798228A62CBFF9CFA60C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICKeyChainStore;
+			productName = UICKeyChainStore;
+			productReference = 912D521406409ECF41676F19E3E37EB1 /* libUICKeyChainStore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2E6F83485C37FA13948120AE6FBE87D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				934DB4B14F5CD156CE434B8C19984C93 /* Pods-TestTool */,
+				5A7A9D069D59F2F5C6173F7772D71569 /* TWMessageBarManager */,
+				E5B9DA268B4AE99DA5F9BA740D36EA02 /* UICKeyChainStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29325D8C728FDA4A5900D84AD797A696 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B33F9C83CD0C52D365119AAB1372BC0 /* TWMessageBarManager-dummy.m in Sources */,
+				D4817402015B0919313EF27A7F7D8485 /* TWMessageBarManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B227339A318F1CE2449BE09B4690A34E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E3A518EC30E2271D26DE823D4D0BE70 /* Pods-TestTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38E567AB201267A88930DED97F26E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49806508A16AA3A7348D839843EC976 /* UICKeyChainStore-dummy.m in Sources */,
+				78B3A4D3EF6455DCFB1C48F7FED97613 /* UICKeyChainStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B310071E5BE0689667F2C07495849F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICKeyChainStore;
+			target = E5B9DA268B4AE99DA5F9BA740D36EA02 /* UICKeyChainStore */;
+			targetProxy = DFB27006D82FB0728A34F14B6E494B99 /* PBXContainerItemProxy */;
+		};
+		F89198E84BEBD855BB1CF23BD9372B89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWMessageBarManager;
+			target = 5A7A9D069D59F2F5C6173F7772D71569 /* TWMessageBarManager */;
+			targetProxy = 7B1F0DFA1A7E4A96F5DB7C6DA13F0FD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		316DA7F3D951116FC459F83B959BD98C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2496DE07855C7B210D29192E94D2679 /* Pods-TestTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3DE99F1A63C143F64EE825CC04918311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1687CBC1F780A152142F7D5B6CCC20 /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		428C626495C71F42371EA2813ECAED26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1687CBC1F780A152142F7D5B6CCC20 /* UICKeyChainStore.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICKeyChainStore/UICKeyChainStore-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A0D740382593F43743FBBC46C69274F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D848BEF6AA91EFCA72282BEE89AC07 /* TWMessageBarManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CE5EF2B94C30FB367100083A9E13D404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D848BEF6AA91EFCA72282BEE89AC07 /* TWMessageBarManager.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TWMessageBarManager/TWMessageBarManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DE6B30AEA4667BC3946574EB9A657FC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA49BC8FDAABEB4F566098639935BB10 /* Pods-TestTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5FDEA939065EDDCCD4A749EEA2371F /* Build configuration list for PBXNativeTarget "Pods-TestTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6B30AEA4667BC3946574EB9A657FC9 /* Debug */,
+				316DA7F3D951116FC459F83B959BD98C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B704EEEAA3270C0556B88FD29E7B8904 /* Build configuration list for PBXNativeTarget "UICKeyChainStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428C626495C71F42371EA2813ECAED26 /* Debug */,
+				3DE99F1A63C143F64EE825CC04918311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5EFA8D82FAEC11378F2AF78D613224 /* Build configuration list for PBXNativeTarget "TWMessageBarManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5EF2B94C30FB367100083A9E13D404 /* Debug */,
+				7A0D740382593F43743FBBC46C69274F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
