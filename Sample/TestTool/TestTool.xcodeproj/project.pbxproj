@@ -20,6 +20,9 @@
 		9ADFDFB81DFFFE8200685475 /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDFB71DFFFE8200685475 /* FileWrapper.m */; };
 		9ADFDFBB1DFFFFF700685475 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADFDFBA1DFFFFF700685475 /* Photos.framework */; };
 		9ADFDFBD1E00000D00685475 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADFDFBC1E00000D00685475 /* ImageIO.framework */; };
+		9ADFDFC11E00E4BE00685475 /* ImagePickerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDFC01E00E4BE00685475 /* ImagePickerHandler.m */; };
+		9ADFDFC51E00E93500685475 /* QLPreviewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFDFC41E00E93500685475 /* QLPreviewHandler.m */; };
+		9ADFDFC71E01503E00685475 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADFDFC61E01503E00685475 /* QuickLook.framework */; };
 		A260BE7A66A50B1CE2EE1E18 /* libPods-TestTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7D2A7DA0E151CA874148DB /* libPods-TestTool.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,11 @@
 		9ADFDFB71DFFFE8200685475 /* FileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileWrapper.m; path = UsefulTool/FileWrapper/FileWrapper.m; sourceTree = "<group>"; };
 		9ADFDFBA1DFFFFF700685475 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		9ADFDFBC1E00000D00685475 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		9ADFDFBF1E00E4BE00685475 /* ImagePickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerHandler.h; sourceTree = "<group>"; };
+		9ADFDFC01E00E4BE00685475 /* ImagePickerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerHandler.m; sourceTree = "<group>"; };
+		9ADFDFC31E00E93500685475 /* QLPreviewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QLPreviewHandler.h; path = UsefulTool/QLPreviewHandler/QLPreviewHandler.h; sourceTree = "<group>"; };
+		9ADFDFC41E00E93500685475 /* QLPreviewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QLPreviewHandler.m; path = UsefulTool/QLPreviewHandler/QLPreviewHandler.m; sourceTree = "<group>"; };
+		9ADFDFC61E01503E00685475 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
 		E32664961EE722189D4AED6C /* Pods-TestTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTool/Pods-TestTool.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7D2A7DA0E151CA874148DB /* libPods-TestTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ADFDFC71E01503E00685475 /* QuickLook.framework in Frameworks */,
 				9ADFDFBD1E00000D00685475 /* ImageIO.framework in Frameworks */,
 				9ADFDFBB1DFFFFF700685475 /* Photos.framework in Frameworks */,
 				A260BE7A66A50B1CE2EE1E18 /* libPods-TestTool.a in Frameworks */,
@@ -66,6 +75,7 @@
 		6C19A26838EFAD8677188A09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9ADFDFC61E01503E00685475 /* QuickLook.framework */,
 				9ADFDFBC1E00000D00685475 /* ImageIO.framework */,
 				9ADFDFBA1DFFFFF700685475 /* Photos.framework */,
 				FE7D2A7DA0E151CA874148DB /* libPods-TestTool.a */,
@@ -108,6 +118,8 @@
 				9ADFDF741DFF9A3700685475 /* AppDelegate.m */,
 				9ADFDF761DFF9A3700685475 /* ViewController.h */,
 				9ADFDF771DFF9A3700685475 /* ViewController.m */,
+				9ADFDFC21E00E8FF00685475 /* QLPreviewHandler */,
+				9ADFDFBE1E00E4BE00685475 /* ImagePickerHandler */,
 				9ADFDFB91DFFFECB00685475 /* FileWrapper */,
 				9ADFDFAF1DFFE91800685475 /* AnimatedGIF */,
 				9ADFDF871DFF9B7500685475 /* DeviceIDTool+Keychain */,
@@ -164,6 +176,25 @@
 				9ADFDFB71DFFFE8200685475 /* FileWrapper.m */,
 			);
 			name = FileWrapper;
+			sourceTree = "<group>";
+		};
+		9ADFDFBE1E00E4BE00685475 /* ImagePickerHandler */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFDFBF1E00E4BE00685475 /* ImagePickerHandler.h */,
+				9ADFDFC01E00E4BE00685475 /* ImagePickerHandler.m */,
+			);
+			name = ImagePickerHandler;
+			path = UsefulTool/ImagePickerHandler;
+			sourceTree = "<group>";
+		};
+		9ADFDFC21E00E8FF00685475 /* QLPreviewHandler */ = {
+			isa = PBXGroup;
+			children = (
+				9ADFDFC31E00E93500685475 /* QLPreviewHandler.h */,
+				9ADFDFC41E00E93500685475 /* QLPreviewHandler.m */,
+			);
+			name = QLPreviewHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +327,8 @@
 				9ADFDF781DFF9A3700685475 /* ViewController.m in Sources */,
 				9ADFDF8C1DFF9B7500685475 /* README.md in Sources */,
 				9ADFDF751DFF9A3700685475 /* AppDelegate.m in Sources */,
+				9ADFDFC51E00E93500685475 /* QLPreviewHandler.m in Sources */,
+				9ADFDFC11E00E4BE00685475 /* ImagePickerHandler.m in Sources */,
 				9ADFDF721DFF9A3700685475 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83FNZMQQ79;
 				INFOPLIST_FILE = TestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abbylai.TestTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -432,6 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 83FNZMQQ79;
 				INFOPLIST_FILE = TestTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abbylai.TestTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";

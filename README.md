@@ -2,12 +2,15 @@
 Collect some useful tools for iOS.
 
 ## SUMMARY
-* DeviceIDTool  
-DeviceIDTool help you to generate unique device ID by IDFV, and save device ID to keychain.
-* UIImage+animatedGIF  
-Display gif animation.(Download from internet)
-* FileWrapper  
-Wrap media data with mimetype,fileName,content to dictionary, which return:
+### DeviceIDTool  
+DeviceIDTool helps you to generate unique device ID by IDFV, and save device ID to keychain.  
+Note: Use pod 'UICKeyChainStore'
+
+### UIImage+animatedGIF  
+Display gif animation.(Download from internet) 
+
+### FileWrapper  
+Wrap media data from PHAsset or filePath with mimetype,fileName,content to dictionary, which return:
 
 ```
 @{
@@ -17,9 +20,9 @@ Wrap media data with mimetype,fileName,content to dictionary, which return:
 }
 ```
 
-```
-+ (NSDictionary *)getVideoDataWithUploadFormat:(PHAsset *)asset; 
-+ (NSDictionary *)getImageDataWithUploadFormat:(PHAsset *)asset;  
-+ (NSDictionary *)getImageDataWithUploadFormatByFilePath:(NSString *)filePath;
-```
+### ImagePickerHandler
+ImagePickerHandler helps you to choose pictures from camera roll, and show camera. ImagePickerHandlerDelegate returns the media data user selected.
+Note: Use pod 'CTAssetsPickerController', '~> 3.3.1'
 
+### QLPreviewHandler
+Use QuickLook.framework to preview PHAsset media data.
